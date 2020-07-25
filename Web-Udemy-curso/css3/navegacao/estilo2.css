@@ -1,0 +1,23 @@
+ul {
+   
+    list-style-type: none;
+    padding: 0px;
+    margin : 0px;
+    width: 720px;
+    background: url("imagens/fundo-horizontal.png") ;
+    float: left;
+}
+
+ul li {
+  float: left;
+}
+
+ul a {
+    display: block;
+    line-height: 2.4em;
+    padding: 0 2.2em;
+    text-decoration: none;
+    color: whitesmoke;
+    background: url("imagens/divisor.png") repeat-y left top;
+
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #conteudo{
+            display : flex;
+            background-color: gray;
+            height: 600px;
+            width: 400px;
+            
+
+
+        }
+        #item {
+            flex-grow: 1;
+            flex-shrink: 1;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background-color: white;
+            border : 1px solid black;
+        }
+        .item2 { flex-shrink: 5;  }
+    </style>
+</head>
+<body>
+    <div id="conteudo">
+        <div id="item" class="item2">01</div>
+        <div id="item">02</div>
+        <div id="item">03</div>
+        <div id="item">04</div>
+        <div id="item">05</div>
+    </div>
+</body>
+</html>

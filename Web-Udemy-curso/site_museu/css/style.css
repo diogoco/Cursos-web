@@ -1,0 +1,201 @@
+body {
+    background: url(../img/fundo.png) repeat-x;
+}
+header {
+    padding: 15px 0;
+    height: 55px;
+}
+
+footer{
+   clear: both;
+   padding:20px 0px 30px 0px ; 
+   text-align: center;
+   background: url(../img/fundo-rodape.png) no-repeat center top;
+   margin-top: 20px;
+   color : rgb(163, 73, 45);
+   font-weight: bold;
+   
+}
+
+nav ul {
+    list-style: none;
+    margin:20px;
+    float : right;
+    text-align: center;
+}
+
+nav ul li {
+    float:left;
+}
+
+a:link, a:active, a:visited{
+    text-decoration: none;
+    color : wheat;
+    font-size:18px;
+    
+}
+
+nav ul li a:link {
+    display: block;
+    margin-left: 10px;
+    float: right;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid gainsboro;
+    text-decoration: none;
+    color : rgba(233, 174, 10, 0.897);
+}
+
+#container {
+    width: 1080px;
+    margin: 0px;
+   
+   
+}
+#logo h1{
+    float: left;
+}
+#logo a{
+    margin-top: 20px;
+    background: url(../img/logo.png) no-repeat;
+    width:248px;
+    display: block;
+    height: 21px;
+    margin-left: 30px;
+    text-indent: -999999px;
+}
+
+#conteudo {
+    width: 850px;
+    float: left;
+    margin-bottom: 20px;
+}
+
+aside {
+    float: right;
+    width: 350px;
+    background:rgba(156, 108, 2, 0.644);
+    margin-bottom: 20px;
+    
+}
+section#visita{
+    background: #e6d68f;
+    padding: 10px 27px 27px 27px;
+    margin: 25px;
+
+}
+section#galeria a{
+    background-image: url(../img/fundo-foto.png);
+    display: block;
+    
+    float: left;
+    padding: 16px;
+    margin: 15px;
+}
+section#galeria {
+    margin-left: 10px;
+    text-align: center;
+
+}
+section#galeria h4 {
+    margin-bottom: 15px; 
+}
+
+#postagens{
+    display: inline-block;
+    margin-top: 30px;
+    
+}
+#conteudo {
+    margin-left: 70px;
+    margin-top: 30px;
+    float: left;
+    
+
+}
+#visita{
+    margin-right: 50px;
+    float:right;
+
+}
+#conteudo h3{
+    color: yellowgreen;
+    font-size: medium;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+article#videos{
+    float: left;
+    margin-left: 25px;
+    width: 390px;
+}
+article#mapas {
+    float: right;
+    width: 390px;
+   
+
+}
+article#exposicoes{
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+article#exposicoes ul li {
+    list-style: none;
+    
+}
+article#exposicoes a{
+    color: rgb(107, 28, 8);
+    text-decoration: none;
+   
+    
+}
+article#exposicoes a:hover{
+    color: rgb(197, 201, 4);
+ 
+}
+article#historia{
+    float: right;
+    width: 400px;
+   
+    color: rgb(68, 14, 10);
+    
+    padding-top: 20px;
+}
+h3{
+    color : #227115;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    text-transform:uppercase;
+}
+h4 {
+    color : #86521a;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin-bottom: 0px;
+}
+
+input{
+    height: 20px;
+    background:#fff;
+    border: none;
+    font-size : 1em;
+    width: 80px;
+}
+input.campo {
+    border: 1px solid #ada484;
+}
+input.botao {
+    background-color: #50380b;
+    color : wheat;
+    width: 100%;
+    height: 40px;
+    font: 1.2em;
+    margin-top:5px ;
+
+}

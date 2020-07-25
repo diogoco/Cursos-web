@@ -1,0 +1,94 @@
+body{
+    font-family: "Trebutche MS", Arial, Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+
+.container {
+    width:85%;
+    margin: 0 auto;
+    background: #fff;
+
+    min-width: 720px;
+
+}
+
+.marca {
+    width: 100%;
+    background:#225992 url(cabecalho2.jpg) no-repeat center;
+    height: 300px;
+    text-align : center;
+    line-height: 300px;
+   
+}
+#imagem {
+    width: 100%;
+    overflow: hidden;
+    min-width: 100px;
+    min-height: 100px;
+}
+.conteudo {
+   
+    float : right;
+    width: 75%;
+}
+
+.navegacao{
+    width: 24%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:#816b6b;
+    line-height: 30px;
+    
+
+}
+.navegacao ul{
+    list-style : none;
+    
+   
+}
+.navegacao li a {
+    text-decoration: none;
+    color: black;
+    
+    
+}
+.rodape {
+    clear : both;
+    background: #c4c4c4;
+    padding:5px;
+}
+
+#conteudo-principal {
+    width: 59%;
+    float: left;
+    height: auto;
+    padding: 5px;
+    color : rgb(0, 0, 0);
+    background-color: rgb(80, 79, 163);
+  
+  
+
+}
+
+#conteudo-secundario{
+    width : 36%;
+    float : right;
+    background-color: #504a4a;
+    color : wheat;
+    padding : 5px;
+    
+   
+    
+}
+#caixa {
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+}
+
+#caixa:hover{
+    width: 700px;
+    background: rgb(1, 43, 43);
+    transition: width 3s, background 3s;
+}

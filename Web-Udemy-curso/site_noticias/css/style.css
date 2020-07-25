@@ -1,0 +1,109 @@
+* {
+    margin : 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url("../imagens/fundo.png") repeat-x;
+
+}
+
+#container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+#topo {
+    height: 150px;
+    background: url(../imagens/detalhe-topo.png) no-repeat right;
+    padding-top: 25px;
+}
+
+.logo {
+    width: 152px;
+    height: 66px;
+    text-indent: -5000px;
+    background: url(../imagens/logo.png) no-repeat center;
+}
+
+ul {
+    margin : 0;
+    padding: 0;
+    list-style: none;
+   
+}
+#topo ul{
+    
+    background: #c51717;
+    margin-top: 30px;
+    float: left;
+}
+
+#topo ul li{
+    float: left;
+}
+
+#topo ul a {
+   
+    display: block;
+    line-height: 2.1em;
+    padding:0.5em 1.5em;
+    text-decoration: none;
+    
+    color: whitesmoke;
+    background: url(../imagens/divisor.png)  left center repeat-y;
+}
+#topo ul a:hover{
+    color : #691313
+}
+
+body.home #navegacao a#home,
+body.saude #navegacao a#saude,
+body.ciencias #navegacao a#ciencias,
+body.economia #navegacao a#economia,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.fotos #navegacao a#fotos{
+    color : #fff;
+    background-color: #9c0921;
+    cursor: text;
+    color: rgb(226, 203, 160);
+
+}
+
+#conteudo{
+    list-style: none;
+    margin-top: 60px;
+}
+
+#primario {
+    background: blue;
+    margin: 0 0 20px 195px;
+    width: 270px;
+    float: left;
+    
+}
+
+#secundario {
+    background: red;
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+#lateral {
+    background:yellow;
+    margin: 0 0 20px -750px;
+    width: 180px;
+    float: left;
+}
+
+#rodape{
+    background:cornflowerblue ;
+    clear: both;
+    width: 2000px;
+    margin-left: 0px;
+    color : #fff;
+    padding: 20px;
+}
