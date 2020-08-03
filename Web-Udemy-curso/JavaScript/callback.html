@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function exibirArtigo(id,callBackSucesso, callBackErro){
+            if(true){
+                callBackSucesso('Funcao callback em JS', 'lorem aosdhsidyguhr4ewskd')
+            }else {
+                callBackErro('ERRO AO RE=UCPERE DADOS ')
+            }
+        }
+        var callBackSucesso = function(titulo,descricao){
+            document.write('<h1>' +titulo + '</h1>')
+            document.write('<hr/>')
+            document.write('<p>' +descricao+ '</p>')
+        }
+        var callBackErro = function(erro){
+            document.write('<p>ERRO:' +erro + '</p>')
+        }
+        exibirArtigo(1,callBackSucesso,callBackErro)
+    </script>
+</head>
+<body>
+    <script>
+        Math.floor
+
+        var data1 = new Date(2017,0,15);
+       
+        var data2 = new Date(2017,1,23);
+
+        document.write(data1.toString())
+        document.write('<hr/>')
+        document.write(data2.toString())
+
+        document.write('<br /> <br/> <hr/>' )
+
+        document.write(Math.abs(data1.getTime()- data2.getTime())/86400000 +' dias')
+
+        //1 dia 24hr , 24hr 1440min, 86.400s, 86.400.000
+        //86.400.000
+    </script>
+</body>
+</html>
